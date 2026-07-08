@@ -60,6 +60,10 @@ Premium Surface Restoration
 
 Countertop and cabinet wrapping
 
+### Expansion path
+
+The brand is intentionally broad enough to add floor restoration later. Floor restoration should be treated as a planned division, not the launch wedge.
+
 ### Expansion services
 
 - Bathroom vanity restoration
@@ -68,7 +72,12 @@ Countertop and cabinet wrapping
 - Elevator interior surface film
 - Restaurant bar and counter refreshes
 - Hospitality and multifamily common-area refreshes
-- Floor, tile, grout, and stone restoration partnerships
+- Stone restoration
+- Tile and grout restoration
+- Terrazzo restoration
+- Concrete polishing
+- Floor restoration
+- Maintenance plans under Lustre Care
 
 ## Voice and tone
 
@@ -99,3 +108,7 @@ Photo quote, written estimate, material samples, scheduled install, workmanship 
 ## Naming rule
 
 Use **Lustre Surface Restoration** publicly. Avoid reverting to **Lustre Floor Restoration** because it narrows the brand too early and conflicts with the broader surface-transformation strategy.
+
+## Expansion guardrail
+
+The brand may reference broad surface restoration, but public service claims should only include services Lustre can execute or supervise at a professional standard. Do not market floor restoration until training, equipment, insurance, SOPs, and quality-control standards are in place.
