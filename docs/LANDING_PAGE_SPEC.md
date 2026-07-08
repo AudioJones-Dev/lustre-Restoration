@@ -4,6 +4,18 @@
 
 This page is the first customer acquisition asset for the 30-day validation sprint. It should not behave like a full brochure website. Its only job is to convert qualified visitors into photo-quote leads.
 
+## Competitive research amendments (2026-07-08)
+
+The 8-competitor crawl (`research/competitor-analysis/README.md`) confirms this spec's core bets and adds the following requirements. No competitor offers an instant/photo estimate, online scheduling, a stated response time, interactive before/after sliders, verified on-site reviews, or a sticky mobile CTA — each of those is an uncontested conversion edge for this page.
+
+1. **State a response-time promise at the form** (e.g., "quote range within X business hours"). Zero competitors commit to one; every competitor funnel is an open-ended callback.
+2. **Place review proof beside the quote form,** not only in its own section. Use verifiable proof (live Google rating + count + link) as soon as real reviews exist; until then, use only documented pilot results. Competitors' recycled, unattributed quote blocks are their weakest trust element.
+3. **Render before/after as draggable comparison sliders with captions** (surface · finish · area · turnaround). Static uncaptioned grids are the category norm and the category's biggest wasted asset.
+4. **Keep the form to 3 steps maximum** (scope → photos + ZIP → contact + time preference). The field ranges from 4 generic fields with no routing to 20+ required fields; the winning pattern (Kitchen Wrap Direct) front-loads easy taps before the contact ask. Never gate step 1 behind name/phone.
+5. **Consider a ZIP-first micro-commitment in the hero** as the lowest-friction entry to the quote flow — the single best funnel pattern observed.
+6. **Add a "how pricing works" block or link** with honest ranges once pricing is validated. Only two competitors show any number; transparency reads as confidence in this category.
+7. **Anti-patterns (do not ship):** footer city-link farms, keyword-stuffed H1s, ALL-CAPS banner shouting, "Click here" links, unattributed star ratings, stat counters, more than one phone number, contact pages without forms.
+
 ## Primary conversion goal
 
 Get the visitor to submit photos and request a fast quote.
@@ -304,6 +316,8 @@ Secondary:
 - Lead source capture
 - Consent checkbox for SMS follow-up
 - Thank-you page or confirmation state
+- Stated response-time promise at the form
+- Review/trust proof adjacent to the form (verifiable only)
 
 ## Analytics requirements
 

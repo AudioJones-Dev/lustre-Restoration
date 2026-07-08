@@ -2,7 +2,7 @@
 
 ## Status
 
-Initial draft. This design system needs visual research, brand refinement, and implementation validation before it becomes canonical.
+Draft, updated with competitive design research (2026-07-08). The competitive research pass required by the approval gate is complete — see `research/competitor-analysis/README.md`. Remaining gates: final palette selection, typography licensing, logo lockup, mockup validation, mobile quote form test.
 
 ## Purpose
 
@@ -44,6 +44,26 @@ It should not look like:
 - A car-wrap shop
 - A discount remodeler
 - A generic cleaning company
+
+## Competitive research amendments (2026-07-08)
+
+Findings from the 8-competitor crawl (`research/competitor-analysis/`) that directly update this system. Every direct competitor runs a template-grade WordPress/Elementor build; the premium visual lane is empty.
+
+### Validated by research (keep, now evidence-backed)
+
+- **Warm premium palette (charcoal/ivory/champagne/stone):** no competitor uses anything like it. The field is contractor blue (#1868a5, #0581ab), car-shop red/black, acid yellow (#efeb48), and neon cyan/teal (#00A6FA). The draft tokens differentiate on sight.
+- **Sticky mobile CTA:** zero competitors have one, despite all being phone-first. Ship it as a three-action bar: Call · Text · Photo Quote.
+- **Before/after image block:** no competitor has an interactive comparison slider anywhere (best-in-field is a static 4-pair carousel). Upgrade this primitive to a **draggable before/after slider with a metadata caption bar** (surface · finish · city · turnaround) and treat it as the brand's signature component.
+- **Photo-quote-first button hierarchy:** no competitor offers any on-screen estimate; every funnel dead-ends in a callback. "Get My Free Photo Quote" is a category-first CTA.
+
+### New rules from research
+
+- **Banned typefaces:** Poppins, Open Sans, Roboto, and Outfit are the default faces of the competitive field (and of the Elementor templates behind it). Do not use them. Pick one distinctive display face + one humanist sans not present in the competitor set.
+- **Banned patterns:** ALL-CAPS shouty banner headings, sentence-length H1s, "Click here" link text, clip-art/icon-badge trust rows, footer city-link farms, keyword-stuffed hero copy. All appear across competitors and read as low-tier.
+- **Trust components are a component family, not copy:** live Google review embed (aggregate score + count + link), named-guarantee badge, credential strip (license/insurance/certs — only once true), technician profile card. Competitors' proof is universally self-asserted and unverifiable; verified proof is a visible differentiator.
+- **Copy integrity is a design token:** competitor sites carry live typos ("WARRANY," "Happy Client's," "FAQ FAQ"), broken stat counters, and inconsistent years-in-business claims. Zero-defect copy and consistent numbers are part of the premium signal — add a copy QA pass to the approval gate.
+- **Performance budget:** competitor pages run 400–600KB of HTML before assets with lazy-load failures. Target fast LCP on 4G, responsive images, no builder bloat.
+- **Schema is part of the system:** LocalBusiness, Service, FAQPage, and AggregateRating markup on every relevant template from day one. Only one competitor has FAQ schema; none have review schema.
 
 ## Color direction
 
@@ -215,28 +235,16 @@ Use restrained motion:
 
 ## Design research required
 
-Before this becomes canonical, run a design scrape/research pass across premium restoration, architectural film, stone restoration, luxury remodeling, and commercial interior surface brands.
-
-Research should extract:
-
-- Color patterns
-- Typography patterns
-- CTA patterns
-- Hero structure
-- Proof strategy
-- Form UX
-- Before/after presentation
-- Commercial vs residential positioning
-- Common trust markers
-- What to avoid
+**Completed 2026-07-08.** An 8-competitor design/UX/conversion/SEO crawl covering wrap specialists, refinishers, a national franchise, and adjacent remodelers lives at `research/competitor-analysis/` (synthesis in its README, full 20-point per-site reports in `sites/`). It covers all the extraction targets below: color patterns, typography patterns, CTA patterns, hero structure, proof strategy, form UX, before/after presentation, commercial vs residential positioning, common trust markers, and what to avoid. Key amendments are folded into the "Competitive research amendments" section above.
 
 ## Design system approval gate
 
 This file becomes canonical only after:
 
-1. Competitive design research is completed.
+1. ~~Competitive design research is completed.~~ Done — `research/competitor-analysis/`.
 2. Final color palette is selected.
 3. Typography is selected and licensing is confirmed.
 4. Logo lockup is updated to Surface Restoration.
 5. Website mockup uses these tokens successfully.
 6. Mobile quote form is tested.
+7. Copy QA pass confirms zero typos and consistent claims/numbers sitewide.
