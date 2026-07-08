@@ -70,7 +70,7 @@ No division is sold publicly until its readiness gates (training, equipment, ins
 | Brand foundation | ✅ Done |
 | Validation framework | ✅ Done |
 | Competitor research | ✅ Done |
-| Design system | 🟡 Draft + research amendments (awaiting ratification) |
+| Design system | 🟢 Brand core locked v1.0 (2026-07-08) — implementation gates remain: logo lockup, mockup validation, mobile form test, copy QA |
 | Website | 🔄 Planned |
 | CRM | 🔄 Planned |
 | AI quote engine | ⏳ Backlog (post-validation) |
@@ -108,7 +108,9 @@ Rules:
 - A doc becomes canonical (v1.0) only after its approval gate passes and amendments are ratified into the body. Until then it is Draft.
 - Every canonical revision keeps a one-line provenance note pointing to the research that motivated it.
 
-**Currently awaiting ratification:** `DESIGN_SYSTEM.md`, `LANDING_PAGE_SPEC.md`, and `WEBSITE_IMPLEMENTATION_PLAN.md` each carry a "Competitive research amendments (2026-07-08)" section sourced from `research/competitor-analysis/`.
+**Ratified:** `DESIGN_SYSTEM.md` brand core locked v1.0 on 2026-07-08 (typography, color system, materials palette, signature conversion primitive) — see its changelog. Implementation gates remain open.
+
+**Currently awaiting ratification:** `LANDING_PAGE_SPEC.md` and `WEBSITE_IMPLEMENTATION_PLAN.md` each carry a "Competitive research amendments (2026-07-08)" section sourced from `research/competitor-analysis/`.
 
 ## Planned repository structure
 
