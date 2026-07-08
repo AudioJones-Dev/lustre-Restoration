@@ -57,3 +57,15 @@ The installation service is the visible product. The durable advantage should co
 ## Current repo purpose
 
 This repository is the canonical launch workspace for the Lustre Surface Restoration business buildout: brand foundation, validation plan, supplier strategy, sales scripts, pricing, operating SOPs, expansion roadmap, and later the digital quote/CRM stack.
+
+## Local web app
+
+```powershell
+npm install
+npm run dev
+npm run lint
+npm run typecheck
+npm run build
+```
+
+The MVP site runs as a Next.js App Router landing page at `/` with a placeholder quote API at `/api/quote`. CRM/webhook integrations are intentionally deferred until validation.
