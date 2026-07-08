@@ -21,6 +21,17 @@ Initial services:
 - Commercial architectural surface film
 - Property-manager unit-turn refreshes
 
+## Expansion intent
+
+Lustre is intentionally named **Surface Restoration** so the company can later add stone, tile, grout, terrazzo, concrete, and floor restoration without changing the brand.
+
+Planned future divisions:
+
+- Surface Wrap Division
+- Stone and Hard-Surface Restoration Division
+- Floor Restoration Division
+- Lustre Care maintenance plans
+
 ## Category position
 
 Lustre is not positioned as a commodity wrap installer. The category is:
@@ -45,4 +56,4 @@ The installation service is the visible product. The durable advantage should co
 
 ## Current repo purpose
 
-This repository is the canonical launch workspace for the Lustre Surface Restoration business buildout: brand foundation, validation plan, supplier strategy, sales scripts, pricing, operating SOPs, and later the digital quote/CRM stack.
+This repository is the canonical launch workspace for the Lustre Surface Restoration business buildout: brand foundation, validation plan, supplier strategy, sales scripts, pricing, operating SOPs, expansion roadmap, and later the digital quote/CRM stack.
