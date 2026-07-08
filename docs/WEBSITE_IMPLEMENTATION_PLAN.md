@@ -90,7 +90,16 @@ components/
   FinalCTA.tsx
   Footer.tsx
   StickyMobileCTA.tsx
+  BeforeAfterSlider.tsx
+  TrustStrip.tsx
 ```
+
+Component notes from competitive research (`research/competitor-analysis/README.md`):
+
+- `BeforeAfterSlider`: draggable comparison slider with a caption bar (surface · finish · area · turnaround). No competitor has one; this is the signature visual component. `BeforeAfterSection` composes it.
+- `TrustStrip`: response-time promise + guarantee badge + verifiable review proof, rendered adjacent to the hero CTA and the quote form. Only display claims that are true and documented.
+- `StickyMobileCTA`: three actions — Call · Text · Photo Quote. No competitor has a sticky mobile bar despite all being phone-first.
+- `QuoteForm`: max 3 steps, scope questions before contact fields (tap-friendly radio cards → photos + ZIP → contact + time preference). Never require contact info to start.
 
 ## Content source of truth
 
@@ -101,6 +110,7 @@ Use these docs as source material:
 - `docs/CRM_PIPELINE.md`
 - `docs/BRAND_FOUNDATION.md`
 - `docs/OPERATING_GUARDRAILS.md`
+- `research/competitor-analysis/README.md` (design/conversion patterns to adopt and avoid)
 
 ## Visual direction
 
@@ -253,6 +263,18 @@ Refresh countertops, cabinets, vanities, rental units, and commercial surfaces w
 - cabinet wrap Palm Beach
 - Airbnb rental refresh Miami
 - surface restoration South Florida
+
+### SEO hygiene rules (from competitor audit)
+
+The competitive field is riddled with fixable SEO errors — avoid all of them:
+
+- One clean H1 per page, human-readable (no keyword strings or slashed variants)
+- Title pattern: `{Value proposition} | Lustre Surface Restoration` — never "Home - Brand"
+- One canonical URL pattern; no duplicate slugs or trailing-hyphen URLs
+- FAQPage schema on the FAQ section; LocalBusiness schema with the real service area (no 130-city areaServed stuffing)
+- No footer city-link farms; city pages come later, few and genuinely local
+- Meta description present on every route
+- Performance budget: fast LCP on 4G, responsive images, minimal JS (competitor pages ship 400–600KB of HTML)
 
 ## Compliance and claims guardrails
 
