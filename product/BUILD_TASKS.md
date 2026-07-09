@@ -57,7 +57,7 @@ Build process steps and launch-service cards.
 Acceptance criteria:
 
 - Process follows send photos → quote range → approve samples → schedule install → reveal transformation
-- Launch services match `docs/SERVICE_ARCHITECTURE.md`
+- Launch services match `business/SERVICE_ARCHITECTURE.md`
 
 ### Task 2.4 — Package cards
 
@@ -65,7 +65,7 @@ Build package cards for Investor Refresh, Signature Surface Wrap, and Premium Ar
 
 Acceptance criteria:
 
-- Package positioning matches `docs/PRICING_MODEL.md`
+- Package positioning matches `business/PRICING_MODEL.md`
 - No hard final pricing shown unless explicitly approved
 - CTA routes to quote form
 
@@ -87,7 +87,7 @@ Implement `lib/quote-schema.ts` using Zod.
 
 Acceptance criteria:
 
-- Required fields match `docs/QUOTE_FORM_SCHEMA.md`
+- Required fields match `product/QUOTE_FORM_SCHEMA.md`
 - SMS consent required
 - Photos optional but encouraged
 

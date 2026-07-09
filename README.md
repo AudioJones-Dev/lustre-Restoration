@@ -69,3 +69,11 @@ npm run build
 ```
 
 The MVP site runs as a Next.js App Router landing page at `/` with a placeholder quote API at `/api/quote`. CRM/webhook integrations are intentionally deferred until validation.
+
+## Repository map
+
+Start with [`00_PROJECT_INDEX.md`](00_PROJECT_INDEX.md) — the single source of truth for vision, document map, build status, and doctrine workflow.
+
+- `business/` — strategy, brand, pricing, sales, and research evidence (`business/research/`)
+- `product/` — design system, specs, schemas, and build plans governing the software
+- `app/`, `components/`, `lib/`, `content/` — the Next.js landing page runtime

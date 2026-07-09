@@ -94,7 +94,7 @@ components/
   TrustStrip.tsx
 ```
 
-Component notes from competitive research (`research/competitor-analysis/README.md`):
+Component notes from competitive research (`business/research/competitor-analysis/README.md`):
 
 - `BeforeAfterSlider`: draggable comparison slider with a caption bar (surface · finish · area · turnaround). No competitor has one; this is the signature visual component. `BeforeAfterSection` composes it.
 - `TrustStrip`: response-time promise + guarantee badge + verifiable review proof, rendered adjacent to the hero CTA and the quote form. Only display claims that are true and documented.
@@ -105,12 +105,12 @@ Component notes from competitive research (`research/competitor-analysis/README.
 
 Use these docs as source material:
 
-- `docs/LANDING_PAGE_SPEC.md`
-- `docs/QUOTE_FORM_SCHEMA.md`
-- `docs/CRM_PIPELINE.md`
-- `docs/BRAND_FOUNDATION.md`
-- `docs/OPERATING_GUARDRAILS.md`
-- `research/competitor-analysis/README.md` (design/conversion patterns to adopt and avoid)
+- `product/LANDING_PAGE_SPEC.md`
+- `product/QUOTE_FORM_SCHEMA.md`
+- `business/CRM_PIPELINE.md`
+- `business/BRAND_FOUNDATION.md`
+- `business/OPERATING_GUARDRAILS.md`
+- `business/research/competitor-analysis/README.md` (design/conversion patterns to adopt and avoid)
 
 ## Visual direction
 
