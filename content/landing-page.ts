@@ -1,8 +1,9 @@
 export const landingPage = {
-  phoneDisplay: "(305) 555-0188",
-  phoneHref: "tel:+13055550188",
+  phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? "",
+  phoneHref: process.env.NEXT_PUBLIC_PHONE_HREF ?? "#quote",
   textHref:
-    "sms:+13055550188?&body=Hi%20Lustre%2C%20I%27d%20like%20a%20photo%20quote%20for%20surface%20restoration.",
+    process.env.NEXT_PUBLIC_TEXT_HREF ??
+    "#quote",
   nav: [
     { label: "Process", href: "#process" },
     { label: "Services", href: "#services" },
