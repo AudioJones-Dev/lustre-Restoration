@@ -82,9 +82,9 @@ Answer these after crawling:
 
 After research, update:
 
-- `docs/DESIGN_SYSTEM.md`
-- `docs/LANDING_PAGE_SPEC.md` if needed
-- `docs/WEBSITE_IMPLEMENTATION_PLAN.md` if implementation details change
+- `product/DESIGN_SYSTEM.md`
+- `product/LANDING_PAGE_SPEC.md` if needed
+- `product/WEBSITE_IMPLEMENTATION_PLAN.md` if implementation details change
 
 ## Guardrail
 

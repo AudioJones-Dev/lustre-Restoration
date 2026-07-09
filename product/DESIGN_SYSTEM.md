@@ -61,7 +61,7 @@ It should not look like:
 
 ## Competitive research amendments (2026-07-08)
 
-Findings from the 8-competitor crawl (`research/competitor-analysis/`) that directly update this system. Every direct competitor runs a template-grade WordPress/Elementor build; the premium visual lane is empty.
+Findings from the 8-competitor crawl (`business/research/competitor-analysis/`) that directly update this system. Every direct competitor runs a template-grade WordPress/Elementor build; the premium visual lane is empty.
 
 ### Validated by research (keep, now evidence-backed)
 
@@ -457,13 +457,13 @@ Use restrained motion:
 
 ## Design research required
 
-**Completed 2026-07-08.** An 8-competitor design/UX/conversion/SEO crawl covering wrap specialists, refinishers, a national franchise, and adjacent remodelers lives at `research/competitor-analysis/` (synthesis in its README, full 20-point per-site reports in `sites/`). It covers all the extraction targets below: color patterns, typography patterns, CTA patterns, hero structure, proof strategy, form UX, before/after presentation, commercial vs residential positioning, common trust markers, and what to avoid. Key amendments are folded into the "Competitive research amendments" section above.
+**Completed 2026-07-08.** An 8-competitor design/UX/conversion/SEO crawl covering wrap specialists, refinishers, a national franchise, and adjacent remodelers lives at `business/research/competitor-analysis/` (synthesis in its README, full 20-point per-site reports in `sites/`). It covers all the extraction targets below: color patterns, typography patterns, CTA patterns, hero structure, proof strategy, form UX, before/after presentation, commercial vs residential positioning, common trust markers, and what to avoid. Key amendments are folded into the "Competitive research amendments" section above.
 
 ## Design system approval gate
 
 This file is now canonical for **brand core v1.0**. Remaining gates apply to production implementation of the website UI:
 
-1. ~~Competitive design research is completed.~~ Done — `research/competitor-analysis/`.
+1. ~~Competitive design research is completed.~~ Done — `business/research/competitor-analysis/`.
 2. ~~Final color palette is selected.~~ Done — locked 2026-07-08.
 3. ~~Typography is selected.~~ Done — Cormorant Garamond + Inter locked 2026-07-08.
 4. Logo lockup is updated to Surface Restoration.

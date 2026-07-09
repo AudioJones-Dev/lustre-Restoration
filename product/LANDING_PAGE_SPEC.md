@@ -6,7 +6,7 @@ This page is the first customer acquisition asset for the 30-day validation spri
 
 ## Competitive research amendments (2026-07-08)
 
-The 8-competitor crawl (`research/competitor-analysis/README.md`) confirms this spec's core bets and adds the following requirements. No competitor offers an instant/photo estimate, online scheduling, a stated response time, interactive before/after sliders, verified on-site reviews, or a sticky mobile CTA — each of those is an uncontested conversion edge for this page.
+The 8-competitor crawl (`business/research/competitor-analysis/README.md`) confirms this spec's core bets and adds the following requirements. No competitor offers an instant/photo estimate, online scheduling, a stated response time, interactive before/after sliders, verified on-site reviews, or a sticky mobile CTA — each of those is an uncontested conversion edge for this page.
 
 1. **State a response-time promise at the form** (e.g., "quote range within X business hours"). Zero competitors commit to one; every competitor funnel is an open-ended callback.
 2. **Place review proof beside the quote form,** not only in its own section. Use verifiable proof (live Google rating + count + link) as soon as real reviews exist; until then, use only documented pilot results. Competitors' recycled, unattributed quote blocks are their weakest trust element.
